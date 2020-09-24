@@ -13,6 +13,8 @@ const Home = (props) => {
         props.getExchange();
         props.getBuy();
         props.getSell();
+
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     console.log(props.buy)
